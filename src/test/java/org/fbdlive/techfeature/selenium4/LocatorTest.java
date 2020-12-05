@@ -19,8 +19,6 @@ public class LocatorTest {
         driver.manage().window().maximize();
         driver.get("https://www.facebook.com/");
 
-        driver.getSessionStorage().
-
 //        WebElement email=driver.findElement(RelativeLocator.withTagName("input").toLeftOf(By.id("pass"))
 //                .below(By.name("lsd")));
 //        String text=email.getAttribute("placeholder");
